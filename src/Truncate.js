@@ -34,6 +34,13 @@ export default class Truncate extends Component {
   }
 
   componentDidMount() {
+    this.init();
+  }
+
+  init() {
+    if (this.text === null) {
+      return;
+    }
     // Node not needed in document tree to read its content
     this.refs.text.parentNode.removeChild(this.refs.text);
 

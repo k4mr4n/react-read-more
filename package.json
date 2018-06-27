@@ -1,5 +1,5 @@
 {
-  "name": "react-read-more",
+  "name": "@kamran.gh/react-read-more",
   "version": "1.0.1",
   "description": "React component for truncating multi-line spans and adding an ellipsis",
   "main": "lib/index.js",
